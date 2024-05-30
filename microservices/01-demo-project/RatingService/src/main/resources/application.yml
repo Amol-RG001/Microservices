@@ -7,3 +7,12 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017
       database: micro_rating_services
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8765/eureka
