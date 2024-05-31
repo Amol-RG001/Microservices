@@ -1,6 +1,6 @@
 
 server:
-  port: 8083
+  port: 9083
 
 spring:
   data:
