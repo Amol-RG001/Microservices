@@ -14,4 +14,5 @@ public class Rating {
     private float rating;
     private String remark;
     private String feedback;
+    private Hotel hotel;
 }
